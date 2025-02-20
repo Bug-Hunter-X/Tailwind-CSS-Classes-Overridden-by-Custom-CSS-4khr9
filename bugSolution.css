@@ -1,0 +1,18 @@
+/* bugSolution.css */
+
+/* Instead of overriding with high specificity, use more general selectors or a different approach to styling */
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.my-special-class {
+  color: blue; /* Adjust to avoid overriding Tailwind styles */
+}
+
+/* Or, if you really need to override, try to do so in a very specific way that is not likely to conflict with Tailwind classes*/
+.my-special-class.text-red-500 {
+  color: green; /*  This way it will only apply if both the class and Tailwind's text-red-500 are applied */
+}
+
+/* Avoid using !important unless absolutely necessary */
