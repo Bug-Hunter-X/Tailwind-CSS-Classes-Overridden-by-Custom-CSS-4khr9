@@ -1,0 +1,1 @@
+I encountered an issue where Tailwind CSS classes weren't being applied correctly to my elements, even though I had configured Tailwind appropriately and the classes were seemingly valid.  The issue stemmed from a conflict between my own CSS and Tailwind's generated CSS. My custom CSS rules were overriding some of Tailwind's utility classes resulting in unexpected styles.
